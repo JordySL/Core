@@ -1,0 +1,7 @@
+#:c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Web\Core.Web.xproj
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Web\Core.Web.xproj|c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Business\Core.Business.xproj
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Web\Core.Web.xproj|c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.DADapper\Core.DADapper.xproj
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Business\Core.Business.xproj|c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.UnitOfWork\Core.UnitOfWork.xproj
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.UnitOfWork\Core.UnitOfWork.xproj|c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Repository\Core.Repository.xproj
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Repository\Core.Repository.xproj|c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Models\Core.Models.xproj
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.DADapper\Core.DADapper.xproj|c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.UnitOfWork\Core.UnitOfWork.xproj
