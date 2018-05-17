@@ -57,4 +57,5 @@
 --reference:C:\Users\Jordy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Models\bin\Debug\netstandard1.6\Core.Models.dll
 c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Repository\IRepository.cs
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Repository\IUserProfileRepository.cs
 c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Repository\Properties\AssemblyInfo.cs

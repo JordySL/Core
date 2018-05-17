@@ -72,4 +72,5 @@
 --reference:c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.UnitOfWork\bin\Debug\netstandard1.6\Core.UnitOfWork.dll
 c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.DADapper\CoreUnitOfWork.cs
 c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.DADapper\Repository.cs
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.DADapper\UserProfileRepository.cs
 c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.DADapper\Properties\AssemblyInfo.cs

@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Core.UnitOfWork;
+using Core.DADapper;
+using Core.Business;
 
 namespace Core.Web
 {
@@ -29,6 +32,11 @@ namespace Core.Web
         {
             // Add framework services.
             services.AddMvc();
+            services.AddSingleton<IUnitOfWork>(options => 
+            new CoreUnitOfWork(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddTransient<IUserProfileBusiness, UserProfileBusiness>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

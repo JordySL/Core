@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Core.Models.UserProfile>
+    <h2>Listado de User</h2>
+
+    <table class="table">
+        <tr>
+            <td>ID</td>
+            <td>Nombres</td>
+            <td>Apellidos</td>
+            <td>Password</td>
+            <td>Direccion</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Nombres</td>
+            <td>@item.Apellidos</td>
+            <td>@item.Password</td>
+            <td>@item.Direccion</td>
+            <td>
+                <a href=''>
+                    <i class="glyphicon glyphicon-edit">
+                    </i>
+                </a>
+                <a href='' data-toggle="modal">
+                    <i class="glyphicon glyphicon-trash">
+                    </i>
+                </a>
+            </td>
+        </tr>
+        }
+    </table>

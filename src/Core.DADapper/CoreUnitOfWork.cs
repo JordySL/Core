@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Repository;
 
 namespace Core.DADapper
 {
@@ -10,8 +11,10 @@ namespace Core.DADapper
     {
         public CoreUnitOfWork(string connectionString)
         {
-
+            usersprofile = new UserProfileRepository(connectionString);
         }
 
+        public IUserProfileRepository usersprofile
+        {get; private set;}
     }
 }
