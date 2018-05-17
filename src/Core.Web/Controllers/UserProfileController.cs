@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Core.Business;
 
@@ -20,6 +16,5 @@ namespace Core.Web.Controllers
             var response = _userprofileBusiness.GetUserProfiles().ToList();
             return View(response);
         }
-
     }
 }

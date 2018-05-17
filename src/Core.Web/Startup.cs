@@ -36,7 +36,7 @@ namespace Core.Web
             new CoreUnitOfWork(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddTransient<IUserProfileBusiness, UserProfileBusiness>();
-
+            services.AddTransient<IUserLoginBusiness, UserLoginBusiness>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

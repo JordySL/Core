@@ -5,5 +5,6 @@ namespace Core.UnitOfWork
     public interface IUnitOfWork
     {
         IUserProfileRepository usersprofile { get; }
+        IUserLoginRepository userlogin { get; }
     }
 }

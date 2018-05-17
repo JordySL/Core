@@ -58,5 +58,6 @@
 --reference:c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Models\bin\Debug\netstandard1.6\Core.Models.dll
 --reference:c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Repository\bin\Debug\netstandard1.6\Core.Repository.dll
 --reference:c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.UnitOfWork\bin\Debug\netstandard1.6\Core.UnitOfWork.dll
-c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Business\UserBusiness.cs
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Business\UserLoginBusiness.cs
+c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Business\UserProfileBusiness.cs
 c:\Users\Jordy\documents\visual studio 2015\Projects\Core.Web\src\Core.Business\Properties\AssemblyInfo.cs

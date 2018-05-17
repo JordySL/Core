@@ -12,9 +12,10 @@ namespace Core.DADapper
         public CoreUnitOfWork(string connectionString)
         {
             usersprofile = new UserProfileRepository(connectionString);
+            userlogin = new UserLoginRepository(connectionString);
         }
+        public IUserLoginRepository userlogin {get; private set;}
 
-        public IUserProfileRepository usersprofile
-        {get; private set;}
+        public IUserProfileRepository usersprofile {get; private set;}
     }
 }
